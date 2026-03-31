@@ -96,8 +96,8 @@ Total session duration: approximately 45–60 minutes.
 | Round | Stimulus Variation | Response | Trials |
 |-------|-------------------|----------|--------|
 | 1 – Colour | Intensity only (10 levels, 10%–100%) | Colour hue + brightness | 30 |
-| 2 – Shape | Spatiotemporal pattern only (6 patterns, constant 60% intensity) | Shape slider (1–20) | 18 |
-| 3 – Combined | Intensity × spatiotemporal pattern (3 × 6) | Colour + shape | 54 |
+| 2 – Shape | vibrotactile pattern only (6 patterns, constant 60% intensity) | Shape slider (1–20) | 18 |
+| 3 – Combined | Intensity × vibrotactile pattern (3 × 6) | Colour + shape | 54 |
 
 All trials use block randomization: each unique stimulus appears once per block before any repetitions.
 
@@ -117,11 +117,11 @@ All trials use block randomization: each unique stimulus appears once per block 
 
 ### Round 2 – Shape
 
-**What varies:** Spatiotemporal activation pattern only. Six distinct patterns vary in where and how actuators fire across the vest. Intensity is held constant at 60% for all trials. Each pattern is repeated 3 times, for 18 trials total.
+**What varies:** vibrotactile activation pattern only. Six distinct patterns vary in where and how actuators fire across the vest. Intensity is held constant at 60% for all trials. Each pattern is repeated 3 times, for 18 trials total.
 
 **What participants do:** After each vibration, they drag a slider to select one of 20 shapes ranging from angular/spiky (position 1, kiki-like) to smooth/rounded (position 20, bouba-like). The selected shape is displayed in real time as the slider moves.
 
-**What it measures:** Whether different spatiotemporal activation patterns map to different perceived shape curvatures. Patterns with discrete, abrupt, or spatially sparse activation are expected to associate with angular shapes; patterns with continuous, flowing, or spatially broad activation are expected to associate with rounded shapes. This round isolates spatiotemporal structure while intensity is held constant.
+**What it measures:** Whether different vibrotactile activation patterns map to different perceived shape curvatures. Patterns with discrete, abrupt, or spatially sparse activation are expected to associate with angular shapes; patterns with continuous, flowing, or spatially broad activation are expected to associate with rounded shapes. This round isolates vibrotactile structure while intensity is held constant.
 
 **The six patterns:**
 
@@ -140,11 +140,11 @@ All trials use block randomization: each unique stimulus appears once per block 
 
 ### Round 3 – Combined
 
-**What varies:** Both intensity and spatiotemporal pattern simultaneously. Three intensity levels (low = 20%, medium = 60%, high = 100%) are fully crossed with the same six spatiotemporal patterns, yielding 18 unique stimulus combinations, each repeated 3 times, for 54 trials total.
+**What varies:** Both intensity and vibrotactile pattern simultaneously. Three intensity levels (low = 20%, medium = 60%, high = 100%) are fully crossed with the same six vibrotactile patterns, yielding 18 unique stimulus combinations, each repeated 3 times, for 54 trials total.
 
 **What participants do:** After each vibration, they select both a colour (same palette as Round 1) and a shape (same slider as Round 2). The selected shape is filled with the chosen colour in real time, giving a combined visual preview. Both responses must be given before continuing.
 
-**What it measures:** Whether intensity-to-colour and pattern-to-shape mappings from Rounds 1 and 2 hold up when both dimensions vary simultaneously, and critically, whether the two mappings operate independently of each other. If the dimensions are independent, then the colour response in Round 3 should reflect intensity (as in Round 1), and the shape response should reflect spatiotemporal pattern (as in Round 2), regardless of what the other dimension is doing. Any interaction between the two would suggest the dimensions are not perceptually separable.
+**What it measures:** Whether intensity-to-colour and pattern-to-shape mappings from Rounds 1 and 2 hold up when both dimensions vary simultaneously, and critically, whether the two mappings operate independently of each other. If the dimensions are independent, then the colour response in Round 3 should reflect intensity (as in Round 1), and the shape response should reflect vibrotactile pattern (as in Round 2), regardless of what the other dimension is doing. Any interaction between the two would suggest the dimensions are not perceptually separable.
 
 **Dependent variables recorded:** `color_hue`, `color_brightness`, and `shape_value`.
 
@@ -160,7 +160,7 @@ Combined is always the final round.
 
 **Intensity levels (Round 1 & 3):** 10%, 20%, 30%, 40%, 50%, 60%, 70%, 80%, 90%, 100%
 
-**Spatiotemporal patterns (Round 2 & 3):**
+**Vibrotactile patterns (Round 2 & 3):**
 - `expansion_bouba1`
 - `circular_bouba2`
 - `inward_bouba3`
