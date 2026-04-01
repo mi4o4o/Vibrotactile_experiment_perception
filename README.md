@@ -109,7 +109,7 @@ All trials use block randomization: each unique stimulus appears once per block 
 
 **What participants do:** After each vibration, they select one colour tile from a palette of 10 hues × 11 brightness levels. The row order is reshuffled on every trial to prevent position bias.
 
-**What it measures:** Whether vibration intensity maps systematically to perceived colour brightness or hue. The core hypothesis is that higher-intensity vibrations will be associated with darker or warmer colours, and lower-intensity vibrations with brighter or cooler colours. This round isolates intensity as the sole independent variable, so any observed colour-brightness relationship can be attributed specifically to intensity rather than to spatial or temporal pattern differences.
+**What it measures:** Whether vibration intensity maps systematically to perceived colour brightness or hue. This round isolates intensity as the sole independent variable, so any observed colour-brightness relationship can be attributed specifically to intensity rather than to vibrotactile pattern differences.
 
 **Dependent variables recorded:** `color_hue` (one of 10 hue labels) and `color_brightness` (integer 0–10, where 0 is darkest and 10 is lightest).
 
@@ -121,7 +121,7 @@ All trials use block randomization: each unique stimulus appears once per block 
 
 **What participants do:** After each vibration, they drag a slider to select one of 20 shapes ranging from angular/spiky (position 1, kiki-like) to smooth/rounded (position 20, bouba-like). The selected shape is displayed in real time as the slider moves.
 
-**What it measures:** Whether different vibrotactile activation patterns map to different perceived shape curvatures. Patterns with discrete, abrupt, or spatially sparse activation are expected to associate with angular shapes; patterns with continuous, flowing, or spatially broad activation are expected to associate with rounded shapes. This round isolates vibrotactile structure while intensity is held constant.
+**What it measures:** Whether different vibrotactile activation patterns map to different shape roundness. Patterns with discrete, abrupt, or spatially sparse activation are expected to associate with angular shapes; patterns with continuous and flowing  activation are expected to associate with rounded shapes. This round isolates vibrotactile structure while intensity is held constant.
 
 **The six patterns:**
 
@@ -144,7 +144,7 @@ All trials use block randomization: each unique stimulus appears once per block 
 
 **What participants do:** After each vibration, they select both a colour (same palette as Round 1) and a shape (same slider as Round 2). The selected shape is filled with the chosen colour in real time, giving a combined visual preview. Both responses must be given before continuing.
 
-**What it measures:** Whether intensity-to-colour and pattern-to-shape mappings from Rounds 1 and 2 hold up when both dimensions vary simultaneously, and critically, whether the two mappings operate independently of each other. If the dimensions are independent, then the colour response in Round 3 should reflect intensity (as in Round 1), and the shape response should reflect vibrotactile pattern (as in Round 2), regardless of what the other dimension is doing. Any interaction between the two would suggest the dimensions are not perceptually separable.
+**What it measures:** Whether intensity-to-colour and pattern-to-shape mappings from Rounds 1 and 2 hold up when both dimensions vary simultaneously, and whether the two mappings operate independently of each other. 
 
 **Dependent variables recorded:** `color_hue`, `color_brightness`, and `shape_value`.
 
@@ -214,7 +214,7 @@ The `tests/` folder contains standalone scripts for testing individual component
 
 ---
 
-## Developer Notes
+## Notes
 
 - Press **S** during any screen to skip the current round or practice block (testing only).
 - The break timer can also be skipped with **S**.
