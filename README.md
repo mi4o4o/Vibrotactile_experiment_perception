@@ -18,7 +18,7 @@ A PyQt6-based experiment investigating cross-modal correspondences between vibro
 pip install -r requirements.txt
 ```
 
-> **Note:** `bhaptics_python` may need to be installed manually depending on your platform. See [bHaptics developer documentation](https://developer.bhaptics.com) for details.
+> **Note:** `bhaptics_python` may need to be installed manually. See [bHaptics developer documentation](https://developer.bhaptics.com) for details.
 
 ---
 
